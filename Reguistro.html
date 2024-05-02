@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REGISTRO</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h2>Ingreso de Datos</h2>
+<form id="clientForm">
+<div class="form-group">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre"
+placeholder="Ingrese su nombre" required>
+</div>
+<div class="form-group">
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"
+placeholder="Ingrese su email" required>
+</div>
+<div class="form-group">
+<label for="Contraseña">Contraseña:</label>
+<input type="password" id="Contraseña" name="Contraseña"
+placeholder="Ingrese su Contraseña">
+</div>
+<div class="form-group">
+<label for="Confirmar Contraseña">Confirmar Contraseña:</label>
+<input type="password" id="ConfirmarContraseña" name="ConfirmarContraseña"
+ placeholder="Confirme su Contraseña">
+</div>
+<div class="form-group">
+<label for="telefono">Teléfono:</label>
+<input type="tel" id="telefono" name="telefono"
+placeholder="Ingrese su teléfono">
+</div>
+<div class="form-group">
+<label for="direccion">Dirección:</label>
+<input type="text" id="direccion" name="direccion"
+placeholder="Ingrese su dirección (opcional)">
+</div>
+<div class="form-group">
+<label for="fechaNacimiento">Fecha de Nacimiento:</label>
+<input type="date" id="fechaNacimiento"
+name="fechaNacimiento">
+</div>
+<button type="submit">Guardar Datos</button>
+</form>
+<div id="responseMessage"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
